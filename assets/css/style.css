@@ -1,0 +1,69 @@
+* {
+	margin: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+header {
+	/* position: fixed;
+	top: 0; */
+	width: 960px;
+	background-color: white;
+	background-size: 1000px;
+}
+
+nav {
+	/* position: fixed; */
+	float: right;
+	padding-top: 30px;
+	
+}
+
+#navhr {
+	position: fixed;
+	top: 76px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	
+	background: url("../images/gaming-pattern.png");
+}
+
+.me {
+	color: white;
+	background-color: #4aaaa5;
+	float: left;
+	padding: 20px;
+	position: fixed;
+}
+
+.clearfix::before {
+	clear: both;
+	content:"";
+	display: block;
+	margin-top: 80px;
+}
+
+section {
+	background: white;
+	border: 2px solid #dddddd;
+	width: 960px;
+}
+
+#profilepic {
+	transform: rotate(-90deg);
+	height: 200px;
+	float: left;
+	margin: 50px 10px 40px 0;
+}
