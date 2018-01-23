@@ -1,6 +1,3 @@
-html, body {
-	/* height: 100%; */
-}
 .topContainer {
 	background-color: white;
 	width: 100%;
@@ -89,7 +86,6 @@ body{
 .me {
 	color: white;
 	background-color: #4aaaa5;
-	/* float: left; */
 	padding: 20px;
 	position: fixed;
 }
