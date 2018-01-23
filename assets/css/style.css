@@ -67,6 +67,18 @@ a {
 	color: inherit;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
+a img:hover {
+	-ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
